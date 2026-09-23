@@ -21,7 +21,17 @@ public class Book
         return id;
     }
 
+    public int getId()
+    {
+        return id;
+    }
+
      public String gettitle()
+    {
+        return title;
+    }
+
+    public String getTitle()
     {
         return title;
     }
@@ -31,12 +41,27 @@ public class Book
         return author;
     }
 
+    public String getAuthor()
+    {
+        return author;
+    }
+
     public String getboook_number()
     {
         return book_number;
     }
 
+    public String getIsbn()
+    {
+        return book_number;
+    }
+
     public boolean getisavailable()
+    {
+        return isavailable;
+    }
+
+    public boolean isAvailable()
     {
         return isavailable;
     }

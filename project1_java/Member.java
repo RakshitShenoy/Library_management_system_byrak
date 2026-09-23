@@ -20,12 +20,27 @@ public class Member
         return id;
     }
 
+    public int getId()
+    {
+        return id;
+    }
+
     public String getname()
     {
         return name;
     }
 
+    public String getName()
+    {
+        return name;
+    }
+
     public List<Book> getborrowedbook()
+    {
+        return borrowedbooks;
+    }
+
+    public List<Book> getBorrowedBooks()
     {
         return borrowedbooks;
     }
